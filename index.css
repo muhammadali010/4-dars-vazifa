@@ -1,0 +1,71 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+header h1 {
+    color: white;
+}
+
+.mode {
+    display: flex;
+}
+
+.content {
+    align-items: center;
+    margin-left: 350px;
+}
+
+.colors button {
+    padding: 6px 18px;
+}
+
+.btn1 {
+    background-color: blue;
+}
+
+.btn2 {
+    background-color: green;
+}
+
+.btn3 {
+    background-color: yellow;
+}
+
+.cards {
+    display: flex;
+    margin-top: 80px;
+}
+
+.cards div {
+    width: 300px;
+    border: radius 20px; ;
+    margin-right: 20px;
+    /* background-color:beige; */
+}
+.card1 img {
+    width: 300px;
+    height: 200px;
+}
+.card2 img {
+    width: 300px;
+    height: 200px;
+}
+
+.card3 img {
+    width: 300px;
+    height: 200px;
+}
+.card1{
+    margin-left: 100px;
+}
